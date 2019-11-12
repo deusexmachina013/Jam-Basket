@@ -1,0 +1,74 @@
+// Each "user" profile contains:
+// "username"
+// "currentJam" (OPTIONAL)
+// "profileImageResource" (OPTIONAL)
+// "externalLinks" : (OPTIONAL)
+//   "website"
+//   "url"
+// "gameJams" : (OPTIONAL - MAY BE EMPTY)
+//   "jamName"
+//   "submissionName"
+//   "jamDate"
+//   "jamTheme"
+//   "submissionDescription"
+//   "ultimateRanking" (OPTIONAL)
+//   "rankingInformation" : (OPTIONAL)
+//     "category"
+//     "metric"
+//     "performance"
+//   "downloadURL" (OPTIONAL)
+
+{
+    "user": [
+        {
+            "username": "TreeLizard",
+            "currentJam": "Mock Jam",
+            "profileImageResource": "NONE",
+            "externalLinks": [
+                {
+                    "website": "Twitch",
+                    "url": "https://www.twitch.tv/bluebobross"
+                }
+            ],
+            "gameJams": [
+                {
+                    "jamName": "Previous Jam",
+                    "submissionName": "Train Game",
+                    "jamDate": "October 25, 2019",
+                    "jamTheme": "Simplified Favorite Game",
+                    "submissionDescription": "Developer description goes here.",
+                    "ultimateRanking": "3",
+                    "rankingInformation": [
+                        {
+                            "category": "Theme Match",
+                            "metric": "5",
+                            "performance": "4"
+                        },
+                        {
+                            "category": "Replayability",
+                            "metric": "5",
+                            "performance": "3"
+                        },
+                        {
+                            "category": "Art",
+                            "metric": "5",
+                            "performance": "4"
+                        }
+                    ],
+                    "downloadURL": "NONE"
+                },
+                {
+                    "jamName": "1-Hour Jam",
+                    "submissionName": "Foolish Monkey",
+                    "jamDate": "September 19, 2019",
+                    "jamTheme": "Bananas",
+                    "submissionDescription": "Developer description goes here.",
+                    "ultimateRanking": "NONE",
+                    "rankingInformation": [
+                    ],
+                    "downloadURL": "NONE"
+                }
+            ]
+        }
+    ]
+}
