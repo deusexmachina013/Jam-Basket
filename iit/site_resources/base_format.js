@@ -16,13 +16,15 @@ $(document).ready(function() {
   
   menuBarHTML += "<section id='menu'>"
   menuBarHTML += "<ul class='bar'>"
+  menuBarHTML += "<span class= 'menuItems'>"
   menuBarHTML += "<li>Home</li>"
   menuBarHTML += "<li>Browse</li>"
   menuBarHTML += "<li>Community</li>"
+  menuBarHTML += "</span>"
   menuBarHTML += "<li>"
   menuBarHTML += "<form>"
   menuBarHTML += "<label for='search'>"
-  menuBarHTML += "<input type='text' size='20' placeholder='Search'>"
+  menuBarHTML += "<input type='text' placeholder='Search'>"
   menuBarHTML += "</label>"
   menuBarHTML += "</form>"
   menuBarHTML += "</li>"
@@ -42,4 +44,6 @@ $(document).ready(function() {
   footerHTML += "</section>";
   
   $("#content").after(footerHTML);
+
+
 });
