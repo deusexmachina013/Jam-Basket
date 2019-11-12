@@ -1,5 +1,5 @@
 Information Architecture for Jam Basket
-Version: 1
+Version: 2
 
 Filesystem Layout
 
@@ -7,7 +7,7 @@ index.html			# The homepage for the website.
 /site_resources
 - site.css
 - base_format.js		# Loads in the base elements of the website.  (Header, Main Bar, and Footer)
-- - /site_assets		# Holds the assets that are to be loaded in every part of the website that uses the base_format.js.
+- /site_assets			# Holds the assets that are to be loaded in every part of the website that uses the base_format.js.
 /user
 - register.html			# The page where users can register for an account.
 - login.html			# The page where users can log in to their account.
