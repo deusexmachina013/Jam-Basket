@@ -17,7 +17,7 @@ $(document).ready(function() {
   menuBarHTML += "<section id='menu'>"
   menuBarHTML += "<ul class='bar'>"
   menuBarHTML += "<span class= 'menuItems'>"
-  menuBarHTML += "<li>Home</li>"
+  menuBarHTML += "<li><a href = 'index.html'>Home</a></li>"
   menuBarHTML += "<li>Browse</li>"
   menuBarHTML += "<li>Community</li>"
   menuBarHTML += "</span>"
