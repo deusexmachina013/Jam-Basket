@@ -9,27 +9,29 @@ body {
 }
 
 #menu {
+    position: relative;
     text-align: center;
     border: solid black;
     border-width: 2px 0px 2px 0px;
+}
+.bar {
+    margin: 0px;
+    align-items: center;
 }
 
 #menu li {
     display: inline-block;
     padding: 0 100px 0 100px;
-    
-
-}
-
-.menuItems li{
     font-family: 'Roboto', sans-serif;
     font-size: 2em;
-    margin-top: 10px;
-    
+    margin-top: 8px;
+    margin-bottom: 8px;
 
 }
 input[type=text] {
+    width: 250px;
     padding: 7px;
+    vertical-align: middle;
   }
 
 ul {
