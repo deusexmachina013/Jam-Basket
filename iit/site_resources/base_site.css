@@ -35,8 +35,20 @@ input[type=text] {
     width: 250px;
     padding: 7px;
     vertical-align: middle;
+    opacity: .8;
   }
-
+input[type=text]:hover {
+    width: 250px;
+    padding: 7px;
+    vertical-align: middle;
+    opacity: 1;
+}
+input[type=text]:focus {
+    width: 250px;
+    padding: 7px;
+    vertical-align: middle;
+    opacity: 1;
+}
 ul {
     margin-block-start: 0em;
     margin-block-end: 0em;
