@@ -1,7 +1,7 @@
 /* Base CSS format for Jam Basket*/
 
 body {
-    background-color: peachpuff;
+    background-color: rgb(212, 247, 250);
 }
 #content h1{
     color: green;
@@ -13,6 +13,9 @@ body {
     text-align: center;
     border: solid black;
     border-width: 2px 0px 2px 0px;
+    background-image: url(sky.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 .bar {
     margin: 0px;
@@ -49,3 +52,14 @@ ul {
 .images {
     list-style-type: none;
 }
+
+.learnmore {
+    background-color: rgb(132, 2, 253); /* Green */
+    border: none;
+    color: white;
+    padding: 20px 200px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+  }
