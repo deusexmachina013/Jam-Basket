@@ -26,6 +26,7 @@ $(document).ready(function() {
   menuBarHTML += "</label>"
   menuBarHTML += "</form>"
   menuBarHTML += "</li>"
+  menuBarHTML += "<li><a href = 'user/login.html'>Login</a></li>"
   menuBarHTML += "</ul>"
   menuBarHTML += "</section>"
   
