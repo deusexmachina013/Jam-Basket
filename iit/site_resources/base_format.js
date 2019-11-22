@@ -3,13 +3,13 @@
 $(document).ready(function() {
   // Write the header.
   var headerHTML = "";
-  
-  headerHTML += "<section id='header'>";
-  headerHTML += "<hl>Jam Basket</h1>";
-  headerHTML += "</section>";
-  
+  headerHTML += "<h1>Jam</h1>"
+  headerHTML += "<a href='index.html' style='display: block'>"
+  headerHTML += "<object data='site_resources/Jam Basket Logo.svg' type='image/svg+xml' style='pointer-events: none;' height = '100' width = '100'></object>";
+  headerHTML += "</a>"
+  headerHTML += "<h1>Basket</h1>"
   // Load in the header.
-  $("#content").before(headerHTML);
+  $(".TopPage").html(headerHTML);
   
   // Write the menu bar.
   var menuBarHTML = "";
@@ -26,6 +26,7 @@ $(document).ready(function() {
   menuBarHTML += "</label>"
   menuBarHTML += "</form>"
   menuBarHTML += "</li>"
+  menuBarHTML += "<li><a href = 'user/login.html'>Login</a></li>"
   menuBarHTML += "</ul>"
   menuBarHTML += "</section>"
   

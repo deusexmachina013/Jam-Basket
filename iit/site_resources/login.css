@@ -1,0 +1,22 @@
+/* Base CSS format for Jam Basket*/
+
+body {
+    background-color: rgb(212, 247, 250);
+}
+
+.outer{
+    min-height: 100vh;
+    max-width: 20em;
+    background-color: white;
+    margin: auto;
+    z-index: -1;
+
+}
+
+.blanket{
+    min-height: 100vh;
+    max-width: 20em;
+    background-color: white;
+    margin: auto;
+    z-index: -1;
+}

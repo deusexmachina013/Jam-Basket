@@ -16,7 +16,6 @@
 //     "category"
 //     "metric"
 //     "performance"
-//   "downloadURL" (OPTIONAL)
 
 {
     "user": [
@@ -55,7 +54,6 @@
                             "performance": "4"
                         }
                     ],
-                    "downloadURL": "NONE"
                 },
                 {
                     "jamName": "1-Hour Jam",
@@ -66,7 +64,6 @@
                     "ultimateRanking": "NONE",
                     "rankingInformation": [
                     ],
-                    "downloadURL": "NONE"
                 }
             ]
         }
