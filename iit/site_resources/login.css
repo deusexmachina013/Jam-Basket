@@ -2,6 +2,7 @@
 
 body {
     background-color: rgb(212, 247, 250);
+    max-height: auto;
 }
 
 .outer{
@@ -9,6 +10,8 @@ body {
     max-width: 20em;
     background-color: white;
     margin: auto;
+    border-style: dashed;
+    border-color: black;
     z-index: -1;
 
 }
@@ -20,3 +23,13 @@ body {
     margin: auto;
     z-index: -1;
 }
+
+.form{
+    text-align: center;
+    margin-top: 10em;
+    margin-left: 5em;
+    position: absolute;
+    opacity: .7;
+}
+
+
