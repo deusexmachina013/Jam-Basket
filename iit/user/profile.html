@@ -5,6 +5,8 @@
   <title>Jam Basket - Profile</title>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <link rel="stylesheet" type="text/css" href="../site_resources/base_site.css">
+  <link rel="stylesheet" type="text/css" href="user_resources/profile.css">
+  <link href="https://fonts.googleapis.com/css?family=Fugaz+One&display=swap" rel="stylesheet">
   <script src="../site_resources/jquery-3.1.1.min.js"></script>
   <script src="/user/user_resources/user_profile_format.js"></script>
 </head>
@@ -13,32 +15,38 @@
     <div id="right"></div>
     <!-- Specialized Header for the profile page. -->
     <section id="header">
-        <section id="clickables">
-            <div class="up">
+        <div class="blanket">
+            <section id="clickables">
                 <a href="../index.html" style="display: block;">
                     <object data="../site_resources/Jam Basket Logo.svg" type="image/svg+xml"  style="pointer-events: none;" height="100" width="100"></object>
                 </a>
-            </div>
-            <!-- The rest here are user social media. -->
-            <a href="https://www.twitch.tv/bluebobross" style="display: block;">
-                <object data="user_resources/external_assets/TwitchGlitchPurple.svg" type="image/svg+xml"  style="pointer-events: none;" height="25" width="25"></object>
-            </a>
-        </section>
-        <h1>Jam Basket</h1>
-        <section id="profile">
-            <img src="user_resources/external_assets/Base%20Identicon.png" alt="Empty User Avatar" height="50" width="50">
-            <h2>TreeLizard</h2>
-            <h3>Current Jam: Mock Jam</h3>
-        </section>
+                <!-- The rest here are user social media. -->
+                <ul>
+                    <li>
+                        <a href="https://www.twitch.tv/bluebobross" style="display: block;">
+                            <object data="user_resources/external_assets/TwitchGlitchPurple.svg" type="image/svg+xml"  style="pointer-events: none;" width="25px" height="25px">
+                            </object>
+                        </a>
+                    </li>
+                </ul>
+            </section>
+            <section id="profile">
+                <img src="user_resources/external_assets/Base%20Identicon.png" alt="Empty User Avatar">
+                <h2>TreeLizard</h2>
+                <h3>Current Jam: Mock Jam</h3>
+            </section>
+        </div>
         
         <!-- Can either be an invitation to log in/register or the user's profile detail. -->
-        <section id="login">
+        <section id="logged">
+            <img src="user_resources/external_assets/User%20Icon%201.png" alt="Your User Avatar" width="25px" height="25px">
         </section>
     </section>
     
     <!-- Content for the page. -->
     <!-- Will be populated by the user's jam games. -->
     <section id="content">
+        <h1>The works of a lovecraftian.</h1>
         <div class="game">
             
         </div>
