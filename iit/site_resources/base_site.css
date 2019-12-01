@@ -29,6 +29,8 @@ body {
 }
 #content {
     margin: 8px;
+    overflow: hidden;
+    
 }
 #content h1{
     color: green;
@@ -91,6 +93,10 @@ body {
     font-family: 'Fugaz One', cursive;
     color: rgb(255, 255, 255);
     text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    float: left;
+}
+.middlemain {
+    float: left;
 }
 input[type=text] {
     width: 250px;
