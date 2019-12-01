@@ -7,7 +7,7 @@ body {
 .outer{
     min-height: 100vh;
     max-width: 20em;
-    background-color: white;
+    background-image: url(blanket.jpg);
     margin: auto;
     z-index: -1;
 

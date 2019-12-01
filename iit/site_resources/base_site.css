@@ -53,7 +53,7 @@ body {
 
 #menu li {
     display: inline-block;
-    padding: 0 94px 0 94px;
+    padding: 0 70px 0 70px;
     font-family: 'Fugaz One', cursive;
     color: rgb(255, 255, 255);
     text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
@@ -73,6 +73,24 @@ body {
 #menu li a:visited {
     color: #FFFFFF;
     text-decoration: none;
+}
+.news {
+    font-family: 'Fugaz One', cursive;
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 68, 35);
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    border: none;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.25em;
+}
+.leftmain {
+    width: 200px;
+    font-family: 'Fugaz One', cursive;
+    color: rgb(255, 255, 255);
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 }
 input[type=text] {
     width: 250px;
@@ -109,7 +127,7 @@ ul {
 }
 
 .learnmore {
-    background-color: rgb(132, 2, 253); /* Green */
+    background-color: rgb(132, 2, 253);
     border: none;
     color: white;
     padding: 20px 200px;
