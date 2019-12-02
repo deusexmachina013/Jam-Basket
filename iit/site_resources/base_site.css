@@ -89,6 +89,7 @@ body {
     font-size: 1.25em;
 }
 .leftmain {
+    padding-left: 4px;
     width: 200px;
     font-family: 'Fugaz One', cursive;
     color: rgb(255, 255, 255);
