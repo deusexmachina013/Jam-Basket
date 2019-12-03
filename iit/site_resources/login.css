@@ -29,6 +29,8 @@ body {
     margin-top: 20em;
     margin-left: 5em;
     position: absolute;
+}
+input[type=text] {
     opacity: .7;
 }
 .form:hover{
