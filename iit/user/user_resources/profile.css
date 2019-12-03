@@ -1,6 +1,6 @@
 body {
     margin: 5% 0 0 0;
-    background-image: url(/site_resources/sky.jpg);
+    background-image: url(../../site_resources/sky.jpg);
 }
 
 #header {
@@ -10,7 +10,7 @@ body {
 }
 
 .blanket {
-    background-image: url(/site_resources/blanket.jpg);
+    background-image: url(../../site_resources/blanket.jpg);
     margin: 1%;
     height: auto;
     width: 80%;

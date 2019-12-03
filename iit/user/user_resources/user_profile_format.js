@@ -6,8 +6,27 @@ $(document).ready(function() {
   $.ajax({
     // Put out a GET request for the requisite JSON file.
     type: "GET",
-    url: "mock_users.json",
+    url: "user_resources/mock_users.json",
     dataType: "json",
+    
+    // Each "user" profile contains:
+    // "username"
+    // "currentJam" (OPTIONAL)
+    // "profileImageResource" (OPTIONAL)
+    // "externalLinks" : (OPTIONAL)
+    //   "website"
+    //   "url"
+    // "gameJams" : (OPTIONAL - MAY BE EMPTY)
+    //   "jamName"
+    //   "submissionName"
+    //   "jamDate"
+    //   "jamTheme"
+    //   "submissionDescription"
+    //   "ultimateRanking" (OPTIONAL)
+    //   "rankingInformation" : (OPTIONAL)
+    //     "category"
+    //     "metric"
+    //     "performance"
     
     // If the get request is successful, scrape the JSON data and format it for my webpage.
     success: function(responseData, status) {
@@ -34,8 +53,6 @@ $(document).ready(function() {
       }
       */
       
-      });
-      
       // Display the HTML on the website in the proper container.
       $("#content").html(output);
       
@@ -45,7 +62,7 @@ $(document).ready(function() {
         
     // Always account for the possibility of error.
     error: function(msg) {
-      alert("This page is unable to get the user's games.");
+      alert("This page is unable to get the user's profile information.");
     }
   });
 });
