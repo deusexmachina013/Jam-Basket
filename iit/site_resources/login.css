@@ -31,7 +31,8 @@ body {
     position: absolute;
 }
 input[type=text] {
-    opacity: .7;
+    opacity: .9;
+    margin-bottom: 5px;
 }
 .form:hover{
     position: absolute;
