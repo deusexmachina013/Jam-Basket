@@ -23,31 +23,22 @@ body {
     margin: auto;
     z-index: -1;
 }
-input[type=text]{
-    margin-top: 10em;
-    margin-left: 5em;
-    position: absolute;
-    opacity: .9;
-    margin-top: 360px;
-}
-input[type=text]:hover{
-    margin-top: 10em;
-    margin-left: 5em;
-    position: absolute;
-    opacity: 1;
-}
-input[type=text]:focus{
 
-    margin-top: 10em;
+.form{
+    text-align: center;
+    margin-top: 20em;
+    margin-left: 5em;
+    position: absolute;
+}
+input[type=text] {
+    opacity: .7;
+}
+.form:hover{
+    margin-top: 20em;
     margin-left: 5em;
     position: absolute;
     opacity: 1;
 }
-input[type=submit]{
-    text-align: center;
-    margin-top: 10em;
-    margin-left: 5em;
-    position: absolute;
-    margin-top: 350px;
-    margin-left: 125px;
+input[type=text]:focus {
+    opacity: 1;
 }
