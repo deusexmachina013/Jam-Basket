@@ -18,7 +18,7 @@ $(document).ready(function() {
                 output += "<li>";
                 
                 // Provide the jam name and theme.
-                output += "<button class='accordion'>" + item.jamName + ' - Theme: "' + item.jamTheme + '"' + "</button>";
+                output += '<button class="accordion">' + item.jamName + ' - Theme: "' + item.jamTheme + '"' + "</button>";
                 
                 // Provide the other jam information.
                 output += '<div class="panel">';
@@ -42,7 +42,7 @@ $(document).ready(function() {
     // Site Interactions //
     
     // Allow the user to toggle the accordions.
-    $(".accordion").click(function() {
+    $("body").on("click", ".accordion", function() {
         $(this).toggleClass("active");
         
         var panel = this.nextElementSibling;
@@ -59,8 +59,8 @@ $(document).ready(function() {
         var list = $("li");
         
         for(index = 0; index < list.length; index++) {
-            button = list[index].getElementsByTagName("button")[0];
-            content = button.textContent || button.innerText;
+            var button = list[index].getElementsByTagName("button")[0];
+            var content = button.textContent || button.innerText;
             
             if(content.toUpperCase().indexOf(filter) > -1) {
                 list[index].style.display = "";

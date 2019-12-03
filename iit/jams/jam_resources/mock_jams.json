@@ -6,7 +6,7 @@
             "jamDesc": "In this jam, create a game that allows the player to express their creativity in some manner.",
             "jamStart": "HH:MM XM EST, MM-DD-YYYY",
             "jamEnd": "HH:MM XM EST, MM-DD-YYYY",
-            "jamLink": "jam.html";
+            "jamLink": "jam.html"
         },
         {
             "jamName": "Imagination Jam",
@@ -14,7 +14,7 @@
             "jamDesc": "In this jam, create a mockup of a game that allows the player to create art.",
             "jamStart": "HH:MM XM EST, MM-DD-YYYY",
             "jamEnd": "HH:MM XM EST, MM-DD-YYYY",
-            "jamLink": "jam.html";
+            "jamLink": "jam.html"
         }
     ]
 }
