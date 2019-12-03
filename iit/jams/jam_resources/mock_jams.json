@@ -4,16 +4,32 @@
             "jamName": "Mock Jam",
             "jamTheme": "Imagination",
             "jamDesc": "In this jam, create a game that allows the player to express their creativity in some manner.",
-            "jamStart": "HH:MM XM EST, MM-DD-YYYY",
-            "jamEnd": "HH:MM XM EST, MM-DD-YYYY",
+            "jamStart": "December 3rd, 2019 at 2:00 PM EST",
+            "jamEnd": "December 20th, 2019 at 2:00 PM EST",
             "jamLink": "jam.html"
         },
         {
             "jamName": "Imagination Jam",
             "jamTheme": "Mockup",
             "jamDesc": "In this jam, create a mockup of a game that allows the player to create art.",
-            "jamStart": "HH:MM XM EST, MM-DD-YYYY",
-            "jamEnd": "HH:MM XM EST, MM-DD-YYYY",
+            "jamStart": "November 16th, 2019 at 2:00 PM EST",
+            "jamEnd": "November 17th, 2019 at 2:00 PM EST",
+            "jamLink": "jam.html"
+        },
+        {
+            "jamName": "Previous Jam",
+            "jamTheme": "Simplified Favorite Game",
+            "jamDesc": "In this jam, create a prototpye of a game based off of your favorite game.  The catch is that the game must be simplified in some manner!",
+            "jamStart": "October 24th, 2019 at 2:00 PM EST",
+            "jamEnd": "October 25th, 2019 at 2:00 PM EST",
+            "jamLink": "jam.html"
+        },
+        {
+            "jamName": "1-Hour Jam",
+            "jamTheme": "Bananas",
+            "jamDesc": "In this jam, make a game which includes bananas in some way, shape or form.",
+            "jamStart": "September 19, 2019 at 8:00 PM EST",
+            "jamEnd": "September 19, 2019 at 9:00 PM EST",
             "jamLink": "jam.html"
         }
     ]

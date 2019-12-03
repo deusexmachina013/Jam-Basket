@@ -45,6 +45,10 @@ $(document).ready(function() {
     $("body").on("click", ".accordion", function() {
         $(this).toggleClass("active");
         
+        // Close any other open accordions.
+        $("button").not(this).removeClass("active");
+        $(".panel").not(this.nextElementSibling).css("display", "none");
+        
         var panel = this.nextElementSibling;
         if(panel.style.display === "block") {
             panel.style.display = "none";
