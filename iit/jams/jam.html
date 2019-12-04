@@ -7,7 +7,6 @@
     <button class="login">Login</button>
     <!-- Can either be an invitation to log in/register or the user's avatar icon. -->
 
-
     <img src="../user/user_resources/external_assets/User%20Icon%201.png" id="logged" alt="Your User Avatar"
         width="90px" height="90px" />
 
@@ -19,6 +18,37 @@
 </head>
 
 <body>
+
+    <script>
+        // Set the date we're counting down to
+        var countDownDate = new Date("Dec 25, 2019 00:00:00").getTime();
+
+        // Update the count down every 1 second
+        var x = setInterval(function () {
+
+            // Get today's date and time
+            var now = new Date().getTime();
+
+            // Find the distance between now and the count down date
+            var distance = countDownDate - now;
+
+            // Time calculations for days, hours, minutes and seconds
+            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            // Display the result in the element with id="time"
+            document.getElementById("time").innerHTML = "Time Remaining:</br>" + days + "d " + hours + "h "
+                + minutes + "m " + seconds + "s ";
+
+            // If the count down is finished, write some text 
+            if (distance < 0) {
+                clearInterval(x);
+                document.getElementById("time").innerHTML = "EXPIRED";
+            }
+        }, 1000);
+    </script>
     <!-- Specialized Header for the jam page. -->
     <div id="header">
         <h1>Mock Jam</h1>
@@ -36,42 +66,11 @@
         <div class="clock">
             <div class="inside">
                 <!-- Display the countdown timer in an element -->
-<p id="time"></p>
-
-<script>
-// Set the date we're counting down to
-var countDownDate = new Date("Dec 25, 2019 00:00:00").getTime();
-
-// Update the count down every 1 second
-var x = setInterval(function() {
-
-  // Get today's date and time
-  var now = new Date().getTime();
-
-  // Find the distance between now and the count down date
-  var distance = countDownDate - now;
-
-  // Time calculations for days, hours, minutes and seconds
-  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-  // Display the result in the element with id="demo"
-  document.getElementById("time").innerHTML = days + "d " + hours + "h "
-  + minutes + "m " + seconds + "s ";
-
-  // If the count down is finished, write some text 
-  if (distance < 0) {
-    clearInterval(x);
-    document.getElementById("time").innerHTML = "EXPIRED";
-  }
-}, 1000);
-</script>
+                <p id="time"></p>
             </div>
             <button>Sign Up?</button>
         </div>
-        <h2>Announcments</h2>
+        <h2>Announcements</h2>
         <div class="announcements">
             <div class="announcement4">
                 <h3>Announcement 4:</h3>

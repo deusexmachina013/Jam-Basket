@@ -42,7 +42,7 @@ footer {
     text-align: center;
     background-color: wheat;
     bottom: 0;
-    overflow: hidden;
+    
 }
 
 .clock{
@@ -54,7 +54,7 @@ footer {
     margin-left: 62%;
     width: 12em;
     height: 8em;
-    margin-top: 3%;
+    margin-top: 4%;
     background-color: red;
 }
 
