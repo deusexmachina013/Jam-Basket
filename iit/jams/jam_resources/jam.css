@@ -1,7 +1,8 @@
 /* Tyler */
 body{
     background-color: rgb(212, 247, 250);
-    width: 100%;
+    width: auto;
+    margin: 0px;
 }
 .login, .register{
     position: absolute;
