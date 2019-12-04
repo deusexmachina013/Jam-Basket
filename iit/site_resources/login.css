@@ -26,7 +26,7 @@ body {
 
 .form{
     text-align: center;
-    margin-top: 21em;
+    margin-top: 22em;
     margin-left: 5em;
     position: absolute;
 }
@@ -41,23 +41,31 @@ input[type=text] {
 input[type=text]:focus {
     opacity: 1;
 }
-a {
+#acct {
+    text-align: center;
     font-family: 'Roboto', sans-serif;
-    margin-top: 60em;
+    color: white;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+a {
+    display: block;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
     color: white;
     text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
     text-decoration: none;
 }
 a:visited {
+    text-align: center;
     font-family: 'Roboto', sans-serif;
-    margin-top: 60em;
     color: white;
     text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
     text-decoration: none;
 }
 a:hover {
     font-family: 'Roboto', sans-serif;
-    margin-top: 60em;
     color: rgb(223, 223, 223);
     text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
     text-decoration: none;
