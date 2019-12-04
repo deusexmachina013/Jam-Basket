@@ -1,7 +1,9 @@
 body {
     margin: 5% 0 0 0;
     background-image: url(../../site_resources/sky.jpg);
+    background-position: 0 -45px;
     background-repeat: no-repeat;
+    background-color: springgreen;
     background-size: 100% 200px;
 }
 
@@ -9,6 +11,7 @@ body {
     background-color: springgreen;
     width: 100%;
     float: left;
+    border: solid
 }
 
 .blanket {
@@ -94,7 +97,6 @@ h2, h3 {
 }
 
 #content {
-    float: left;
-    background-color: springgreen;
-    width: 100%;
+    margin: 0;
+    border: solid;
 }
