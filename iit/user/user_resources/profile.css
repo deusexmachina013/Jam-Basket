@@ -3,12 +3,12 @@ body {
     background-image: url(../../site_resources/sky.jpg);
     background-position: 0 -45px;
     background-repeat: no-repeat;
-    background-color: springgreen;
+    background-color: rgb(114, 213, 243);
     background-size: 100% 200px;
 }
 
 #header {
-    background-color: springgreen;
+    background-color: rgb(4, 209, 106);
     width: 100%;
     float: left;
     border: solid
