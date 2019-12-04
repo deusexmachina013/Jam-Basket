@@ -1,0 +1,126 @@
+/* Tyler */
+body{
+    background-color: rgb(212, 247, 250);
+    width: 100%;
+}
+.login, .register{
+    position: absolute;
+    margin-left: 65%;
+    padding: 1em;
+    margin-right: 25%;
+    background-color: rgb(255, 68, 35);
+    font-family: 'Fugaz One', cursive;
+    color: rgb(255, 255, 255);
+    border-radius: 50%;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+.register{
+    margin-top: -2.5em;
+    margin-left: 64.5%;
+}
+
+#header{
+    margin: auto;
+}
+
+#header h1{
+    text-align: left;
+    margin-right: 75%;
+    margin-top: -2em;
+    margin-left: 3em;
+    position: relative;
+    font-size: 3em;
+    font-family: 'Fugaz One', cursive;
+    color: rgb(255, 255, 255);
+    display: block;
+}
+
+footer {
+    display: block;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    background-color: wheat;
+    bottom: 0;
+    overflow: hidden;
+}
+
+.clock{
+    position: absolute;
+    vertical-align: center;
+    border-style: solid;
+    border-color: black;
+    border-radius: 100%;
+    margin-left: 65%;
+    width: 6em;
+    height: 4em;
+    margin-top: 5%;
+}
+
+.clock button{
+    position: absolute;
+    margin-left: 15%;
+    margin-top: 75%;
+    padding: 1em;
+    background-color: rgb(255, 68, 35);
+    font-family: 'Fugaz One', cursive;
+    color: rgb(255, 255, 255);
+    border-radius: 100%;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+.inside{
+    position: absolute;
+    margin-top: 1.5em;
+}
+
+#time{
+    position: absolute;
+    margin-left: 63%;
+    font-family: 'Fugaz One', cursive;
+
+}
+
+.announcements{
+    background-color: #D41C1D;
+    font-family: 'Fugaz One', cursive;
+    border-right: solid;
+    border-color: black;
+    padding-right: 0.5%;
+    padding-left: 0.5%;
+    color: rgb(255, 255, 255);
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    float: left;
+}
+
+.announcements .announcement3{
+    border-top: solid;
+    border-color: black;
+}
+
+h2{
+    text-align: center;
+    border-right: solid;
+    border-bottom: dotted;
+    border-color: black;
+    background-color: #D41C1D;
+    font-family: 'Fugaz One', cursive;
+    color: rgb(255, 255, 255);
+    width: 352px;
+}
+
+#content #desc{
+    background-color: #D41C1D;
+    width: 352px;
+    font-family: 'Fugaz One', cursive;
+    color: rgb(255, 255, 255);
+    text-align: center;
+
+}
+
+#content .description{
+    background-color: #D41C1D;
+    width: 352px;
+    font-family: 'Fugaz One', cursive;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
