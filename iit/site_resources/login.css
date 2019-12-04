@@ -29,6 +29,9 @@ body {
     margin-top: 22em;
     margin-left: 5em;
     position: absolute;
+    padding: 5px;
+    background-color: antiquewhite;
+    border-radius: 5px;
 }
 input[type=text] {
     opacity: .9;
