@@ -65,24 +65,28 @@ body {
 
 }
 
-#menu li a {
+a {
     color: #FFFFFF;
     text-decoration: none;
 }
-#menu li a:visited:hover {
+a:hover {
     color: rgb(255, 0, 0);
 }
-#menu li a:visited {
+a:visited {
     color: #FFFFFF;
     text-decoration: none;
 }
+a:visited:hover {
+    color: rgb(255, 0, 0);
+}
+
 .news {
     font-family: 'Fugaz One', cursive;
+    width: 5em;
     color: rgb(255, 255, 255);
     background-color: rgb(255, 68, 35);
     text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
-    border: none;
-    padding: 5px 10px;
+    border-radius: 4px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -95,6 +99,12 @@ body {
     color: rgb(255, 255, 255);
     text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
     float: left;
+}
+.jam {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 .middlemain {
     float: left;
@@ -134,12 +144,14 @@ ul {
 }
 
 .learnmore {
-    background-color: rgb(132, 2, 253);
-    border: none;
-    color: white;
-    padding: 20px 200px;
+    font-family: 'Fugaz One', cursive;
+    width: 15em;
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 68, 35);
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    border-radius: 4px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 1em;
+    font-size: 3em;
   }
