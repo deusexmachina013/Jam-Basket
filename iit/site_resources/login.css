@@ -34,11 +34,18 @@ input[type=text] {
     opacity: .9;
     margin-bottom: 5px;
 }
-.form:hover{
-    position: absolute;
-    opacity: 1;
+input[type=password] {
+    opacity: .9;
+    margin-bottom: 5px;
 }
 input[type=text]:focus {
+    opacity: 1;
+}
+input[type=password]:focus {
+    opacity: 1;
+}
+.form:hover{
+    position: absolute;
     opacity: 1;
 }
 #acct {
