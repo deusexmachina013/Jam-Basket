@@ -1,6 +1,4 @@
 $(document).ready(function() {
-  // Allow the user games to reveal themselves once properly constructed.
-  $("#content").hide();
   
   // Attempt to populate the labs page with information found in the JSON file.
   $.ajax({
@@ -54,10 +52,7 @@ $(document).ready(function() {
       */
       
       // Display the HTML on the website in the proper container.
-      $("#content").html(output);
-      
-      // Reveal the games all at once.
-      $("#content").show(1000);
+      // $("#content").html(output);
     },
         
     // Always account for the possibility of error.
