@@ -8,7 +8,7 @@ body{
     margin-left: 65%;
     padding: 1em;
     margin-right: 25%;
-    background-color: rgb(255, 68, 35);
+    background-color: rgb(255, 0, 0);
     font-family: 'Fugaz One', cursive;
     color: rgb(255, 255, 255);
     border-radius: 50%;
@@ -31,7 +31,7 @@ body{
     position: relative;
     font-size: 3em;
     font-family: 'Fugaz One', cursive;
-    color: rgb(255, 255, 255);
+    color: rgb(255, 0, 0);
     display: block;
 }
 
@@ -51,10 +51,11 @@ footer {
     border-style: solid;
     border-color: black;
     border-radius: 100%;
-    margin-left: 65%;
-    width: 6em;
-    height: 4em;
-    margin-top: 5%;
+    margin-left: 62%;
+    width: 12em;
+    height: 8em;
+    margin-top: 3%;
+    background-color: red;
 }
 
 .clock button{
@@ -62,7 +63,7 @@ footer {
     margin-left: 15%;
     margin-top: 75%;
     padding: 1em;
-    background-color: rgb(255, 68, 35);
+    background-color: rgb(255, 0, 0);
     font-family: 'Fugaz One', cursive;
     color: rgb(255, 255, 255);
     border-radius: 100%;
@@ -76,7 +77,9 @@ footer {
 #time{
     position: absolute;
     margin-left: 63%;
+    margin-top: 6.25%;
     font-family: 'Fugaz One', cursive;
+    z-index: 1;
 
 }
 
