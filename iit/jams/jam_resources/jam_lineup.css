@@ -13,8 +13,9 @@
 }
 
 .accordion {
-    background-color: #eee;
-    color: #444;
+    border-radius: 6px;
+    font-family: 'Roboto', sans-serif;
+    color: black;
     cursor: pointer;
     padding: 8px;
     width: 100%;
@@ -34,17 +35,41 @@
 }
 
 .active:after {
+    color: rgb(255, 81, 81);
     content: "\2796";
 }
 
 .panel {
+    border-radius: 6px;
     padding: 0 18px 18px 18px;
-    background-color: white;
+    background-image: url(../../site_resources/blanket.jpg);
     display: none;
     overflow: hidden;
     border: solid #777;
 }
-.panel p {font-family: 'Roboto', sans-serif;
+.start {
+    border-bottom: 2px dotted black;
+}
+.panel-text {
+    margin-top: 5px;
+    background-color: rgb(255, 81, 81);
+    border: solid 2px black;
+    border-radius: 4px;
+}
+.panel-text a {
+    background-color: rgb(247, 138, 138);
+    border: solid 2px black;
+    border-radius: 4px;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    margin-left: 8px;
+    margin-bottom: 6px;
+}
+.panel p {
+    margin: 5px;
+    padding: 3px;
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
     color: white;
     text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 }

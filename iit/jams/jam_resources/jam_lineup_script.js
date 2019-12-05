@@ -22,11 +22,12 @@ $(document).ready(function() {
                 
                 // Provide the other jam information.
                 output += '<div class="panel">';
-                output += "<p>" + item.jamDesc + "</p>";
+                output += '<div class="panel-text">';
+                output += "<p class='start'>" + item.jamDesc + "</p>";
                 output += "<p> Starts: " + item.jamStart + "</p>";
                 output += "<p> Ends: " + item.jamEnd + "</p>";
-                output += "<a href='" + item.jamLink + "'>Learn More!</a>";
-                output += '</div></li>';
+                output += "<p><a href='" + item.jamLink + "'>Learn More!</a><p>";
+                output += '</div></div></li>';
             });
             
             // Display the HTML on the website in the proper container.
