@@ -2,13 +2,15 @@
 body{
     margin: 0;
     padding: 0;
+    background-color: antiquewhite;
 }
 
 header{
-    background-color: blue;
+    background-image: url(../../site_resources/sky.jpg);
     padding: 0;
     top: 0;
     margin: 0;
+    height: 100px;
 }
 
 #content{
@@ -17,6 +19,7 @@ header{
     margin: 8px;
 }
 h1 {
+    font-size: 4em;
     margin: 0;
     padding: 10px;
     font-family: 'Fugaz One', cursive;
@@ -24,27 +27,28 @@ h1 {
     text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 }
 .login, .register{
-    margin-top: 7px;
+    margin-top: 20px;
+    margin-right: 10px;
     padding: 1em;
     float: right;
     position: static;
-    background-color: rgb(255, 0, 0);
+    background-color: #377ECC;
     font-family: 'Fugaz One', cursive;
     color: rgb(255, 255, 255);
-    border-radius: 50%;
+    border-radius: 6px;
     text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 }
 
 .toggles{
-    margin-right: 25%;
+    margin-right: 10%;
 }
 
 .logged{
-    width: 50px;
-    height: 50px;
+    width: 90px;
+    height: 90px;
     position: absolute;
-    right: 2%;
-    top: 2%;
+    right: 4px;
+    top: 4px;
 }
 
 footer {
@@ -52,7 +56,7 @@ footer {
     position: fixed;
     width: 100%;
     text-align: center;
-    background-color: wheat;
+    background-color: #D41C1D;
     bottom: 0;
     
 }
@@ -60,9 +64,8 @@ footer {
 .clock{
     position: absolute;
     vertical-align: center;
-    border-style: solid;
-    border-color: black;
-    border-radius: 100%;
+    border: 1px solid #888;
+    border-radius: 5px;
     top: 35%;
     left: 84%;
     width: 12em;
@@ -79,7 +82,7 @@ footer {
     background-color: rgb(255, 0, 0);
     font-family: 'Fugaz One', cursive;
     color: rgb(255, 255, 255);
-    border-radius: 100%;
+    border-radius: 5px;
     text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 }
 .inside{
@@ -93,6 +96,8 @@ footer {
     left: 85%;
     margin-top: 6.25%;
     font-family: 'Fugaz One', cursive;
+    color: rgb(255, 255, 255);
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
     z-index: 1;
 
 }
@@ -102,8 +107,8 @@ footer {
     font-family: 'Fugaz One', cursive;
     border-right: solid;
     border-color: black;
-    height: 15em;
-    width: 40em;
+    height: 10em;
+    width: 100%;
     padding-right: 0.5%;
     padding-left: 0.5%;
     color: rgb(255, 255, 255);
@@ -126,6 +131,8 @@ footer {
     border-bottom: dotted;
     border-color: black;
     margin-bottom: 0;
+    margin-top: 0;
+    top: 0;
     background-color: #D41C1D;
     font-family: 'Fugaz One', cursive;
     color: rgb(255, 255, 255);
@@ -135,13 +142,15 @@ footer {
 
 #content .description{
     background-color: #D41C1D;
-    width: 100%;
+    width: 80%;
+    height: 100%;
     padding-left: 90%;
     padding-right: 90%;
     border: solid;
     border-color: black;
     font-family: 'Fugaz One', cursive;
     color: rgb(255, 255, 255);
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
     text-align: center;
 }
 
@@ -170,7 +179,7 @@ footer {
     background-color: #D41C1D;
     border: solid;
     border-color: black;
-    border-radius: 10em;
+    border-radius: 5px;
 }
   
 /* The Close Button */
@@ -193,19 +202,25 @@ footer {
     text-align: center;
     font-family: 'Fugaz One', cursive;
     color: rgb(255, 255, 255);
-    width: 341px;
 }
-
-
+.modal-content .top {
+    width: 100%
+}
 .total{
+    width: 41.5%;
+    top: 47.3%;
     position: fixed;
-    top: 50%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
 
 p {
+    font-family: 'Fugaz One', cursive;
+    color: rgb(255, 255, 255);
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+.mockjam {
     font-family: 'Fugaz One', cursive;
     color: rgb(255, 255, 255);
     text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
