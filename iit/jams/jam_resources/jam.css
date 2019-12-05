@@ -1,8 +1,16 @@
 /* Tyler */
 body{
-    background-color: rgb(212, 247, 250);
+    background-image: url(https://cache.desktopnexus.com/cropped-wallpapers/2478/2478832-1680x1050-[DesktopNexus.com].jpg?st=55-HqXagY8w2uyJP1rEimA&e=1575505168);
+    background-repeat: no-repeat;
+    background-size: 100%;
     width: auto;
-    margin: 0px;
+    margin: 0;
+}
+
+#content{
+    display: inline-block;
+    text-align: center;
+    margin: 8px;
 }
 .login, .register{
     position: absolute;
@@ -61,7 +69,7 @@ footer {
 
 .clock button{
     position: absolute;
-    margin-left: 15%;
+    margin-left: -18%;
     margin-top: 75%;
     padding: 1em;
     background-color: rgb(255, 0, 0);
@@ -89,32 +97,39 @@ footer {
     font-family: 'Fugaz One', cursive;
     border-right: solid;
     border-color: black;
+    height: 15em;
+    width: 40em;
     padding-right: 0.5%;
     padding-left: 0.5%;
     color: rgb(255, 255, 255);
     text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
     float: left;
+    overflow: scroll;
+
 }
 
-.announcements .announcement3{
-    border-top: solid;
+.announcements .announcement-entry{
+    border-bottom: solid;
     border-color: black;
+    
 }
 
-h2{
+.announce{
     text-align: center;
     border-right: solid;
+    border-top: solid;
     border-bottom: dotted;
     border-color: black;
+    margin-bottom: 0;
     background-color: #D41C1D;
     font-family: 'Fugaz One', cursive;
     color: rgb(255, 255, 255);
-    width: 352px;
+    width: 646.5px;
 }
 
 #content #desc{
     background-color: #D41C1D;
-    width: 352px;
+    width: 644px;
     font-family: 'Fugaz One', cursive;
     color: rgb(255, 255, 255);
     text-align: center;
@@ -123,8 +138,61 @@ h2{
 
 #content .description{
     background-color: #D41C1D;
-    width: 352px;
+    width: 644px;
+    border: solid;
+    border-color: black;
     font-family: 'Fugaz One', cursive;
     color: rgb(255, 255, 255);
     text-align: center;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(4,0,0); /* Fallback color */
+    background-color: rgba(0,34,0,0.4); /* Black w/ opacity */
+}
+  
+/* Modal Content */
+.modal-content {
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 20%;
+    text-align: center;
+    background-color: #D41C1D;
+    border: solid;
+    border-color: black;
+    border-radius: 10em;
+}
+  
+/* The Close Button */
+
+.modal-content .top{
+    text-align: center;
+    border-bottom: dotted;
+    border-color: black;
+    font-family: 'Fugaz One', cursive;
+    color: rgb(255, 255, 255);
+    width: 341px;
+}
+
+.modal-content .mockjam{
+    font-size: 2em;
+    text-align: center;
+}
+
+.modal-content .dates{
+    text-align: center;
+    font-family: 'Fugaz One', cursive;
+    color: rgb(255, 255, 255);
+    width: 341px;
 }

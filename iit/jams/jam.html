@@ -4,7 +4,7 @@
 
 <head>
     <title>Jam Basket - Jam</title>
-    <button class="login">Login</button>
+    <button class="login" onclick="window.location.href='../user/login.html'">Login</button>
     <!-- Can either be an invitation to log in/register or the user's avatar icon. -->
 
     <img src="../user/user_resources/external_assets/User%20Icon%201.png" id="logged" alt="Your User Avatar"
@@ -49,10 +49,11 @@
             }
         }, 1000);
     </script>
+
     <!-- Specialized Header for the jam page. -->
     <div id="header">
         <h1>Mock Jam</h1>
-        <button class="register">Register</button>
+        <button class="register" onclick="window.location.href='../user/register.html'">Register</button>
     </div>
 
     <!-- Content for the page. -->
@@ -68,25 +69,57 @@
                 <!-- Display the countdown timer in an element -->
                 <p id="time"></p>
             </div>
-            <button>Sign Up?</button>
+            <button id="signup">Sign Up?</button>
         </div>
-        <h2>Announcements</h2>
+        <h2 class="announce">Announcements</h2>
         <div class="announcements">
-            <div class="announcement4">
+            <div class="announcement-entry">
                 <h3>Announcement 4:</h3>
                 <h4>Posted: December 24, 2019 @ 8:00 am</h4>
                 <p>This is a Mock Jam for...</p>
             </div>
-            <div class="announcement3">
+            <div class="announcement-entry">
                 <h3>Announcement 3:</h3>
                 <h4>Posted: December 22, 2019 @ 7:38 am</h4>
                 <p>This is a Mock Jam for...</p>
             </div>
         </div>
     </div>
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <h2 class="top">You have signed up for:</h2>
+            <h3 class="mockjam"> Mock Jam</h3>
+            <p class="dates">Starts: December 27, 2019: 2:00 pm </br> Ends: December 29, 2019: 2:00 pm</p>
+        </div>
+
+    </div>
     <footer>
         <p>Powered By Jam Basket</p>
     </footer>
+
+    <script>
+        // Get the modal
+        var modal = document.getElementById("myModal");
+
+        // Get the button that opens the modal
+        var btn = document.getElementById("signup");
+
+        // When the user clicks the button, open the modal 
+        btn.onclick = function () {
+            modal.style.display = "block";
+        }
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    </script>
 </body>
 
 </html>
