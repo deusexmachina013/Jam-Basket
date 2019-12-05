@@ -1,9 +1,13 @@
 /* Tyler */
 body{
-    background-image: url(https://cache.desktopnexus.com/cropped-wallpapers/2478/2478832-1680x1050-[DesktopNexus.com].jpg?st=55-HqXagY8w2uyJP1rEimA&e=1575505168);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    width: auto;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: blue;
+    padding: 0;
+    top: 0;
     margin: 0;
 }
 
@@ -13,35 +17,24 @@ body{
     margin: 8px;
 }
 .login, .register{
-    position: absolute;
-    margin-left: 65%;
     padding: 1em;
-    margin-right: 25%;
+    float: right;
+    position: static;
     background-color: rgb(255, 0, 0);
     font-family: 'Fugaz One', cursive;
     color: rgb(255, 255, 255);
     border-radius: 50%;
     text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 }
-.register{
-    margin-top: -2.5em;
-    margin-left: 64.5%;
+
+.toggles{
+    margin-right: 25%;
 }
 
-#header{
-    margin: auto;
-}
-
-#header h1{
-    text-align: left;
-    margin-right: 75%;
-    margin-top: -2em;
-    margin-left: 3em;
-    position: relative;
-    font-size: 3em;
-    font-family: 'Fugaz One', cursive;
-    color: rgb(255, 0, 0);
-    display: block;
+.logged{
+    position: absolute;
+    right: 4%;
+    top: 4%;
 }
 
 footer {
@@ -60,7 +53,8 @@ footer {
     border-style: solid;
     border-color: black;
     border-radius: 100%;
-    margin-left: 62%;
+    top: 35%;
+    left: 84%;
     width: 12em;
     height: 8em;
     margin-top: 4%;
@@ -84,8 +78,9 @@ footer {
 }
 
 #time{
-    position: absolute;
-    margin-left: 63%;
+    position: fixed;
+    top: 35%;
+    left: 85%;
     margin-top: 6.25%;
     font-family: 'Fugaz One', cursive;
     z-index: 1;
@@ -127,18 +122,12 @@ footer {
     width: 646.5px;
 }
 
-#content #desc{
-    background-color: #D41C1D;
-    width: 644px;
-    font-family: 'Fugaz One', cursive;
-    color: rgb(255, 255, 255);
-    text-align: center;
-
-}
 
 #content .description{
     background-color: #D41C1D;
-    width: 644px;
+    width: 100%;
+    padding-left: 90%;
+    padding-right: 90%;
     border: solid;
     border-color: black;
     font-family: 'Fugaz One', cursive;
@@ -195,4 +184,13 @@ footer {
     font-family: 'Fugaz One', cursive;
     color: rgb(255, 255, 255);
     width: 341px;
+}
+
+
+.total{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
