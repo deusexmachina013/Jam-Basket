@@ -44,7 +44,7 @@
     overflow: hidden;
     border: solid #777;
 }
-p {font-family: 'Roboto', sans-serif;
+.panel p {font-family: 'Roboto', sans-serif;
     color: white;
     text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 }
