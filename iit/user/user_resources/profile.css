@@ -29,37 +29,37 @@ body {
 }
 
 h2, h3 {
-    float: left;
-    font-family: 'Fugaz One', cursive;
-    color: rgb(255, 255, 255);
-    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
-    width: auto;
-    font-size: 1.5em;
+  float: left;
+  font-family: 'Fugaz One', cursive;
+  color: rgb(255, 255, 255);
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+  width: auto;
+  font-size: 1.5em;
 }
 
 #clickables {
-    text-align: center;
-    float: left;
-    margin: -45px 0 0 0;
+  text-align: center;
+  float: left;
+  margin: -45px 0 0 0;
 }
 
 #clickables ul {
-    display: inline;
-    text-align: center;
+  display: inline;
+  text-align: center;
 }
 
 #clickables li {
-    text-align: center;
-    border: solid #BBB;
-    border-radius: 25%;
-    background-color: antiquewhite;
-    display: inline-block;
+  text-align: center;
+  border: solid #BBB;
+  border-radius: 25%;
+  background-color: antiquewhite;
+  display: inline-block;
 }
 
 #profile {
-    float: left;
-    position: relative;
-    top: 50%;
+  float: left;
+  position: relative;
+  top: 50%;
 }
 
 #profile img {
@@ -85,9 +85,9 @@ h2, h3 {
 }
 
 #logged {
-    float: right;
-    margin: 1%;
-    position: relative;
+  float: right;
+  margin: 1%;
+  position: relative;
 }
 
 #logged img {
@@ -120,7 +120,6 @@ h2, h3 {
 }
 
 .row {
-    display: inline-block;
     list-style: none;
     float: left;
     width: 100%;
@@ -128,8 +127,8 @@ h2, h3 {
 }
 
 .column {
-    float: right;
-    width: 50%;
-    height: auto;
-    list-style: none;
+  float: right;
+  width: 50%;
+  height: auto;
+  list-style: none;
 }

@@ -3,78 +3,79 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
-    <title>Jam Basket - Jam</title>
-    <div class="toggles">
-        <button class="login" onclick="window.location.href='../user/login.html'">Login</button>
-        <button class="register" onclick="window.location.href='../user/register.html'">Register</button>
-    </div>
+  <title>Jam Basket - Jam</title>
+  <div class="toggles">
+    <button class="login" onclick="window.location.href='../user/login.html'">Login</button>
+    <button class="register" onclick="window.location.href='../user/register.html'">Register</button>
+  </div>
 
 
-    <!-- Can either be an invitation to log in/register or the user's avatar icon. -->
+  <!-- Can either be an invitation to log in/register or the user's avatar icon. -->
 
-    <img src="../user/user_resources/external_assets/User%20Icon%201.png" class="logged" alt="Your User Avatar"
-        width="90px" height="90px" />
+  <img src="../user/user_resources/external_assets/User%20Icon%201.png" class="logged" alt="Your User Avatar"
+    width="90px" height="90px" />
 
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
-    <link rel="stylesheet" type="text/css" href="jam_resources/jam.css" />
-    <link href="https://fonts.googleapis.com/css?family=Fugaz+One&ampdisplay=swap" rel="stylesheet" />
-    <script src="../site_resources/jquery-3.1.1.min.js" type="text/javascript"></script>
-    <script src="jam_resources/jampagescript.js" type="text/javascript"></script>
+  <link rel="stylesheet" type="text/css" href="jam_resources/jam.css" />
+  <link href="https://fonts.googleapis.com/css?family=Fugaz+One&ampdisplay=swap" rel="stylesheet" />
+  <script src="../site_resources/jquery-3.1.1.min.js" type="text/javascript"></script>
+  <script src="jam_resources/jampagescript.js" type="text/javascript"></script>
 </head>
 
 <body>
-    <!-- Specialized Header for the jam page. -->
-    <header>
-        <h1>Mock Jam</h1>
-    </header>
-    <!-- Content for the page. -->
-    <!-- Will be populated by the jams being run on the site. -->
-    <div id="content">
-        <div class="description">
-            <h3>Description:</h3>
-            <p>Theme: Imagination</p>
+  <!-- Specialized Header for the jam page. -->
+  <header>
+    <h1>Mock Jam</h1>
+  </header>
+  <!-- Content for the page. -->
+  <!-- Will be populated by the jams being run on the site. -->
+  <div id="content">
+    <div class="description">
+      <h3>Description:</h3>
+      <p>Theme: Imagination</p>
+    </div>
+    <h3 id="time">Time Remaining:</h3>
+    <div class="clock">
+      <div class="inside">
+        <!-- Display the countdown timer in an element -->
+        <p id="time"></p>
+      </div>
+      <button id="signup">Sign Up?</button>
+    </div>
+    <div class="total">
+      <h2 class="announce">Announcements</h2>
+      <div class="announcements">
+        <div class="announcement-entry">
+          <h3>Announcement 4:</h3>
+          <h4>Posted: December 24, 2019 @ 8:00 am</h4>
+          <p>This is a Mock Jam for...</p>
         </div>
-        <h3 id="time">Time Remaining:</h3>
-        <div class="clock">
-            <div class="inside">
-                <!-- Display the countdown timer in an element -->
-                <p id="time"></p>
-            </div>
-            <button id="signup">Sign Up?</button>
+        <div class="announcement-entry">
+          <h3>Announcement 3:</h3>
+          <h4>Posted: December 22, 2019 @ 7:38 am</h4>
+          <p>This is a Mock Jam for...</p>
         </div>
-        <div class="total">
-            <h2 class="announce">Announcements</h2>
-            <div class="announcements">
-                <div class="announcement-entry">
-                    <h3>Announcement 4:</h3>
-                    <h4>Posted: December 24, 2019 @ 8:00 am</h4>
-                    <p>This is a Mock Jam for...</p>
-                </div>
-                <div class="announcement-entry">
-                    <h3>Announcement 3:</h3>
-                    <h4>Posted: December 22, 2019 @ 7:38 am</h4>
-                    <p>This is a Mock Jam for...</p>
-                </div>
-            </div>
-            <img src="http://i.imgur.com/Lw1MTym.png" alt="Mock Jam" class="jam">
-        </div>
+      </div>
+      <img src="http://i.imgur.com/Lw1MTym.png" alt="Mock Jam" class="jam">
+    </div>
+  </div>
+
+  <!-- The Modal -->
+  <div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <h2 class="top">You have signed up for:</h2>
+      <h3 class="mockjam"> Mock Jam</h3>
+      <p class="dates">Starts: December 27, 2019: 2:00 pm </br> Ends: December 29, 2019: 2:00 pm</p>
     </div>
 
-    <!-- The Modal -->
-    <div id="myModal" class="modal">
+  </div>
+  <footer>
+    <p>Powered By Jam Basket</p>
+  </footer>
 
-        <!-- Modal content -->
-        <div class="modal-content">
-            <h2 class="top">You have signed up for:</h2>
-            <h3 class="mockjam"> Mock Jam</h3>
-            <p class="dates">Starts: December 27, 2019: 2:00 pm <br> Ends: December 29, 2019: 2:00 pm</p>
-        </div>
-
-    </div>
-    <footer>
-        <p>Powered By Jam Basket</p>
-    </footer>
 </body>
 
 </html>
