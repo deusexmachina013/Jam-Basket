@@ -6,7 +6,7 @@ body {
     background-color: antiquewhite;
 }
 
-header {
+#head {
     background-image: url(../../site_resources/sky.jpg);
     padding: 0;
     top: 0;
@@ -54,7 +54,7 @@ h1 {
     top: 4px;
 }
 
-footer {
+#foot {
     display: block;
     position: fixed;
     width: 100%;

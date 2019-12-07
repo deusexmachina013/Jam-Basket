@@ -61,7 +61,7 @@ $(document).ready(function () {
   // Allow the user to filter jams by name or theme.
   $("#filterBar").on("keyup", function () {
     var filter = this.value.toUpperCase();
-    var list = $("li");
+    var list = document.getElementById("jamEntries").getElementsByTagName("li");
 
     for (index = 0; index < list.length; index++) {
       var button = list[index].getElementsByTagName("button")[0];
