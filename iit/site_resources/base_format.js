@@ -16,9 +16,9 @@ $(document).ready(function () {
 
   menuBarHTML += "<section id='menu'>"
   menuBarHTML += "<ul class='bar'>"
-  menuBarHTML += "<li><a href = '/Jam-Basket/iit/index.html'>Home</a></li>"
-  menuBarHTML += "<li><a href = '/Jam-Basket/iit/jams/jam_lineup.html'>Browse</a></li>"
-  menuBarHTML += "<li><a href = '/Jam-Basket/iit/user/profile.html'>Profile</a></li>"
+  menuBarHTML += "<li><a href = 'index.html'>Home</a></li>"
+  menuBarHTML += "<li><a href = 'jams/jam_lineup.html'>Browse</a></li>"
+  menuBarHTML += "<li><a href = 'user/profile.html'>Profile</a></li>"
   menuBarHTML += "<li>"
   menuBarHTML += "<form>"
   menuBarHTML += "<label for='search'>"
@@ -26,7 +26,7 @@ $(document).ready(function () {
   menuBarHTML += "</label>"
   menuBarHTML += "</form>"
   menuBarHTML += "</li>"
-  menuBarHTML += "<li><a href = '/Jam-Basket/iit/user/login.html'>Login</a></li>"
+  menuBarHTML += "<li><a href = 'user/login.html'>Login</a></li>"
   menuBarHTML += "</ul>"
   menuBarHTML += "</section>"
 
