@@ -13,10 +13,9 @@ body {
   border-style: dashed;
   border-color: black;
   z-index: -1;
-
 }
 
-.blanket{
+.blanket {
   min-height: 100vh;
   max-width: 20em;
   background-color: white;
@@ -24,7 +23,7 @@ body {
   z-index: -1;
 }
 
-.form{
+.forms {
   text-align: center;
   margin-top: 22em;
   margin-left: 5em;
