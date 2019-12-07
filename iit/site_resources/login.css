@@ -29,8 +29,14 @@ body {
   margin-left: 5em;
   position: absolute;
   padding: 5px;
-  background-color: antiquewhite;
+  background-color: #D8475B;
   border-radius: 5px;
+}
+p {
+  font-family: 'Roboto', sans-serif;
+  color: rgb(0, 0, 0);
+  text-align: left;
+  margin: 0;
 }
 input[type=text] {
   opacity: .9;
