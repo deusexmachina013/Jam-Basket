@@ -1,11 +1,12 @@
 /* Tyler */
-body{
+
+body {
     margin: 0;
     padding: 0;
     background-color: antiquewhite;
 }
 
-header{
+header {
     background-image: url(../../site_resources/sky.jpg);
     padding: 0;
     top: 0;
@@ -13,11 +14,12 @@ header{
     height: 100px;
 }
 
-#content{
+#content {
     display: inline-block;
     text-align: center;
     margin: 8px;
 }
+
 h1 {
     font-size: 4em;
     margin: 0;
@@ -26,7 +28,8 @@ h1 {
     color: rgb(255, 255, 255);
     text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 }
-.login, .register{
+
+.login, .register {
     margin-top: 20px;
     margin-right: 10px;
     padding: 1em;
@@ -39,11 +42,11 @@ h1 {
     text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 }
 
-.toggles{
+.toggles {
     margin-right: 10%;
 }
 
-.logged{
+.logged {
     width: 90px;
     height: 90px;
     position: absolute;
@@ -58,10 +61,9 @@ footer {
     text-align: center;
     background-color: #D41C1D;
     bottom: 0;
-    
 }
 
-.clock{
+.clock {
     position: absolute;
     vertical-align: center;
     border: 1px solid #888;
@@ -74,7 +76,7 @@ footer {
     background-color: red;
 }
 
-.clock button{
+.clock button {
     position: absolute;
     margin-left: -18%;
     margin-top: 75%;
@@ -85,12 +87,13 @@ footer {
     border-radius: 5px;
     text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 }
-.inside{
+
+.inside {
     position: absolute;
     margin-top: 1.5em;
 }
 
-#time{
+#time {
     position: fixed;
     top: 35%;
     left: 85%;
@@ -99,10 +102,9 @@ footer {
     color: rgb(255, 255, 255);
     text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
     z-index: 1;
-
 }
 
-.announcements{
+.announcements {
     background-color: #D41C1D;
     font-family: 'Fugaz One', cursive;
     border-right: solid;
@@ -115,16 +117,14 @@ footer {
     text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
     float: left;
     overflow: scroll;
-
 }
 
-.announcements .announcement-entry{
+.announcements .announcement-entry {
     border-bottom: solid;
     border-color: black;
-    
 }
 
-.announce{
+.announce {
     text-align: center;
     border-right: solid;
     border-top: solid;
@@ -139,8 +139,7 @@ footer {
     width: 101%;
 }
 
-
-#content .description{
+#content .description {
     background-color: #D41C1D;
     width: 80%;
     height: 100%;
@@ -154,22 +153,35 @@ footer {
     text-align: center;
 }
 
+
 /* The Modal (background) */
+
 .modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
     left: 0;
     top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(4,0,0); /* Fallback color */
-    background-color: rgba(0,34,0,0.4); /* Black w/ opacity */
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(4, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 34, 0, 0.4);
+    /* Black w/ opacity */
 }
-  
+
+
 /* Modal Content */
+
 .modal-content {
     margin: auto;
     padding: 20px;
@@ -181,10 +193,11 @@ footer {
     border-color: black;
     border-radius: 5px;
 }
-  
+
+
 /* The Close Button */
 
-.modal-content .top{
+.modal-content .top {
     text-align: center;
     border-bottom: dotted;
     border-color: black;
@@ -193,20 +206,22 @@ footer {
     width: 341px;
 }
 
-.modal-content .mockjam{
+.modal-content .mockjam {
     font-size: 2em;
     text-align: center;
 }
 
-.modal-content .dates{
+.modal-content .dates {
     text-align: center;
     font-family: 'Fugaz One', cursive;
     color: rgb(255, 255, 255);
 }
+
 .modal-content .top {
     width: 100%
 }
-.total{
+
+.total {
     width: 41.5%;
     top: 47.3%;
     position: fixed;
@@ -220,6 +235,7 @@ p {
     color: rgb(255, 255, 255);
     text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 }
+
 .mockjam {
     font-family: 'Fugaz One', cursive;
     color: rgb(255, 255, 255);

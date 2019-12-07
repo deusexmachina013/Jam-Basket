@@ -1,12 +1,12 @@
-$(document).ready(function() {
-  
+$(document).ready(function () {
+
   // Attempt to populate the labs page with information found in the JSON file.
   $.ajax({
     // Put out a GET request for the requisite JSON file.
     type: "GET",
     url: "user_resources/mock_users.json",
     dataType: "json",
-    
+
     // Each "user" profile contains:
     // "username"
     // "currentJam" (OPTIONAL)
@@ -25,11 +25,11 @@ $(document).ready(function() {
     //     "category"
     //     "metric"
     //     "performance"
-    
+
     // If the get request is successful, scrape the JSON data and format it for my webpage.
-    success: function(responseData, status) {
+    success: function (responseData, status) {
       var output = "";
-      
+
       /*
       // Format the JSON data for each entry into HTML.
       $.each(responseData.labs, function(mainIndex, item) {
@@ -50,13 +50,13 @@ $(document).ready(function() {
         });
       }
       */
-      
+
       // Display the HTML on the website in the proper container.
       // $("#content").html(output);
     },
-        
+
     // Always account for the possibility of error.
-    error: function(msg) {
+    error: function (msg) {
       alert("This page is unable to get the user's profile information.");
     }
   });

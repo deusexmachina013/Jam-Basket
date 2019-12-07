@@ -3,84 +3,114 @@
 
 <head>
   <title>Jam Basket - Profile</title>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-  <link rel="stylesheet" type="text/css" href="../site_resources/base_site.css"/>
-  <link rel="stylesheet" type="text/css" href="user_resources/profile.css"/>
-  <link href="https://fonts.googleapis.com/css?family=Fugaz+One&amp;display=swap" rel="stylesheet"/>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" type="text/css" href="../site_resources/base_site.css" />
+  <link rel="stylesheet" type="text/css" href="user_resources/profile.css" />
+  <link href="https://fonts.googleapis.com/css?family=Fugaz+One&amp;display=swap" rel="stylesheet" />
   <script src="../site_resources/jquery-3.1.1.min.js" type="text/javascript"></script>
   <script src="user_resources/user_profile_format.js" type="text/javascript"></script>
 </head>
 
 <body>
-    <!-- Specialized Header for the profile page. -->
-    <div id="header">
-        <div class="blanket">
-            <div id="clickables">
-                <a href="../index.html" style="display: block;">
-                    <object data="../site_resources/Jam Basket Logo.svg" type="image/svg+xml"  style="pointer-events: none;" height="100" width="100"></object>
-                </a>
-                <!-- The rest here are user social media. -->
-                <ul>
-                    <li>
-                        <a href="https://www.twitch.tv/bluebobross" style="display: block;">
-                            <object data="user_resources/external_assets/TwitchGlitchPurple.svg" type="image/svg+xml"  style="pointer-events: none;" width="25px" height="25px">
-                            </object>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <div id="profile">
-                <img src="user_resources/external_assets/User%20Icon%201.png" alt="Empty User Avatar"/>
-                <h2>TreeLizard</h2>
-                <h3>Current Jam: Mock Jam</h3>
-            </div>
-        </div>
-        
-        <!-- Can either be an invitation to log in/register or the user's avatar icon. -->
-        <div id="logged">
-            <img src="user_resources/external_assets/User%20Icon%201.png" alt="Your User Avatar" width="25px" height="25px"/>
-        </div>
+  <!-- Specialized Header for the profile page. -->
+  <div id="header">
+    <div class="blanket">
+      <div id="clickables">
+        <a href="../index.html" style="display: block;">
+          <object data="../site_resources/Jam Basket Logo.svg" type="image/svg+xml" style="pointer-events: none;"
+            height="100" width="100"></object>
+        </a>
+        <!-- The rest here are user social media. -->
+        <ul>
+          <li>
+            <a href="https://www.twitch.tv/bluebobross" style="display: block;">
+              <object data="user_resources/external_assets/TwitchGlitchPurple.svg" type="image/svg+xml"
+                style="pointer-events: none;" width="25px" height="25px">
+              </object>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div id="profile">
+        <img src="user_resources/external_assets/User%20Icon%201.png" alt="Empty User Avatar" />
+        <h2>TreeLizard</h2>
+        <h3>Current Jam: Mock Jam</h3>
+      </div>
     </div>
-    
-    <!-- Content for the page. -->
-    <!-- Will be populated by the user's jam games. -->
-    <div id="content">
-        <div class="game">
-            <ul class="row">
-                <li><h2>"Previous Jam": Train Game</h2></li>
-                <ul class="column">
-                    <li><h2>Rank in Jam: #3</h2></li>
-                </ul>
-            </ul>
-            <ul class="row">
-                <li><h2>Theme: Simplified Favorite Game</h2></li>
-                <ul class="column">
-                    <li><h2>Participated: October 25, 2019</h2></li>
-                </ul>
-            </ul>
-            <ul class="row">
-                <li><p>My game takes the train mechanics from Nintendo's <em>The Legend of Zelda: Spirit Tracks</em> and simplifies the movement and combat with a blend of "infinite runner" and "bullet-hell".</p></li>
-                <li><p>Judge's Scores:</p></li>
-                <li><p>4/5 - Theme Match</p></li>
-                <li><p>3/5 - Replayability</p></li>
-                <li><p>4/5 - Art</p></li>
-            </ul>
-        </div>
-        <div class="game">
-            <ul class="row">
-                <li><h2>"1-Hour Jam": Foolish Monkey</h2></li>
-            </ul>
-            <ul class="row">
-                <li><h2>Theme: Bananas</h2></li>
-                <ul class="column">
-                    <li><h2>Participated: September 19, 2019</h2></li>
-                </ul>
-            </ul>
-            <ul class="row">
-                <li><p>In <em>Foolish Monkey</em>, players take control of a stumbling, bumbling monkey as he strives to collect at least half the bananas in his area before the time runs out.</p></li>
-            </ul>
-        </div>
+
+    <!-- Can either be an invitation to log in/register or the user's avatar icon. -->
+    <div id="logged">
+      <img src="user_resources/external_assets/User%20Icon%201.png" alt="Your User Avatar" width="25px" height="25px" />
     </div>
+  </div>
+
+  <!-- Content for the page. -->
+  <!-- Will be populated by the user's jam games. -->
+  <div id="content">
+    <div class="game">
+      <ul class="row">
+        <li>
+          <h2>"Previous Jam": Train Game</h2>
+        </li>
+        <ul class="column">
+          <li>
+            <h2>Rank in Jam: #3</h2>
+          </li>
+        </ul>
+      </ul>
+      <ul class="row">
+        <li>
+          <h2>Theme: Simplified Favorite Game</h2>
+        </li>
+        <ul class="column">
+          <li>
+            <h2>Participated: October 25, 2019</h2>
+          </li>
+        </ul>
+      </ul>
+      <ul class="row">
+        <li>
+          <p>My game takes the train mechanics from Nintendo's <em>The Legend of Zelda: Spirit Tracks</em> and
+            simplifies the movement and combat with a blend of "infinite runner" and "bullet-hell".</p>
+        </li>
+        <li>
+          <p>Judge's Scores:</p>
+        </li>
+        <li>
+          <p>4/5 - Theme Match</p>
+        </li>
+        <li>
+          <p>3/5 - Replayability</p>
+        </li>
+        <li>
+          <p>4/5 - Art</p>
+        </li>
+      </ul>
+    </div>
+    <div class="game">
+      <ul class="row">
+        <li>
+          <h2>"1-Hour Jam": Foolish Monkey</h2>
+        </li>
+      </ul>
+      <ul class="row">
+        <li>
+          <h2>Theme: Bananas</h2>
+        </li>
+        <ul class="column">
+          <li>
+            <h2>Participated: September 19, 2019</h2>
+          </li>
+        </ul>
+      </ul>
+      <ul class="row">
+        <li>
+          <p>In <em>Foolish Monkey</em>, players take control of a stumbling, bumbling monkey as he strives to collect
+            at least half the bananas in his area before the time runs out.</p>
+        </li>
+      </ul>
+    </div>
+  </div>
 
 </body>
 
