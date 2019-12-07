@@ -1,9 +1,18 @@
+.header {
+    position: relative;
+}
+body {
+    background-image: linear-gradient(rgb(255, 255, 255),rgb(143, 0, 0));
+}
+h1 {
+    width: 20%;
+}
 #filterBar {
-  width: 100%;
-  padding: 8px;
-  font-size: 16px;
-  border: 2px solid #ddd;
-  margin-bottom: 8px;
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 2px solid rgb(78, 0, 0);
+    margin-bottom: 8px;
 }
 
 #jamEntries {
@@ -13,14 +22,17 @@
 }
 
 .accordion {
-  border-radius: 6px;
-  font-family: 'Roboto', sans-serif;
-  color: black;
-  cursor: pointer;
-  padding: 8px;
-  width: 100%;
-  text-align: left;
-  outline: none;
+    border-radius: 6px;
+    border: 2px solid black;
+    font-family: 'Roboto', sans-serif;
+    background-image: linear-gradient(rgb(238, 16, 0),rgb(61, 0, 0));
+    color: rgb(255, 255, 255);
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    cursor: pointer;
+    padding: 8px;
+    width: 100%;
+    text-align: left;
+    outline: none;
 }
 
 .accordion:after {
@@ -40,12 +52,12 @@
 }
 
 .panel {
-  border-radius: 6px;
-  padding: 0 18px 18px 18px;
-  background-image: url(../../site_resources/blanket.jpg);
-  display: none;
-  overflow: hidden;
-  border: solid #777;
+    border-radius: 6px;
+    padding: 0 18px 18px 18px;
+    background-image: url(../../site_resources/blanket.jpg);
+    display: none;
+    overflow: hidden;
+    border: solid rgb(0, 0, 0);
 }
 .start {
   border-bottom: 2px dotted black;
