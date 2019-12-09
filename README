@@ -1,15 +1,14 @@
---  -----██╗-█████╗-███╗---███╗----██████╗--█████╗-███████╗██╗--██╗███████╗████████╗
---  -----██║██╔══██╗████╗-████║----██╔══██╗██╔══██╗██╔════╝██║-██╔╝██╔════╝╚══██╔══╝
---  -----██║███████║██╔████╔██║----██████╔╝███████║███████╗█████╔╝-█████╗-----██║---
---  ██---██║██╔══██║██║╚██╔╝██║----██╔══██╗██╔══██║╚════██║██╔═██╗-██╔══╝-----██║---
---  ╚█████╔╝██║--██║██║-╚═╝-██║----██████╔╝██║--██║███████║██║--██╗███████╗---██║---
---  -╚════╝-╚═╝--╚═╝╚═╝-----╚═╝----╚═════╝-╚═╝--╚═╝╚══════╝╚═╝--╚═╝╚══════╝---╚═╝---
---  --------------------------------------------------------------------------------
+--  -----██╗-█████╗-███╗---███╗----██████╗--█████╗-███████╗██╗--██╗███████╗████████╗  --
+--  -----██║██╔══██╗████╗-████║----██╔══██╗██╔══██╗██╔════╝██║-██╔╝██╔════╝╚══██╔══╝  --
+--  -----██║███████║██╔████╔██║----██████╔╝███████║███████╗█████╔╝-█████╗-----██║---  --
+--  ██---██║██╔══██║██║╚██╔╝██║----██╔══██╗██╔══██║╚════██║██╔═██╗-██╔══╝-----██║---  --
+--  ╚█████╔╝██║--██║██║-╚═╝-██║----██████╔╝██║--██║███████║██║--██╗███████╗---██║---  --
+--  -╚════╝-╚═╝--╚═╝╚═╝-----╚═╝----╚═════╝-╚═╝--╚═╝╚══════╝╚═╝--╚═╝╚══════╝---╚═╝---  --
+--  --------------------------------------------------------------------------------  --
 
 Purpose of Jam Basket:
 
-The purpose of this project is to better the game-developer community in a way to enable creative minds, better ones portfolio, and as a result, attract new developers into a fun and thrilling experience.
-
+The purpose of this project is to better the game-developer community in a way to enable creative minds, better one's portfolio, and as a result, attract new developers into a fun and thrilling experience.
 
 How to Install:
 1. Running XAMPP with the unzipped folder open, put the Jam-Basket folder into the htdocs folder of XAMPP.
@@ -21,6 +20,5 @@ NOTE: If you are on a Mac, you will want to enter localhost:8080/Jam-Basket/iit 
 
 Once you load the site, you are free to browse each page of our site!
 
-
-
-
+Our Github Link:
+https://github.com/deusexmachina013/Jam-Basket
