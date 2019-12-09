@@ -1,0 +1,50 @@
+{
+  "user": [
+    {
+      "username": "TreeLizard",
+      "currentJam": "Mock Jam",
+      "externalLinks": [
+        {
+          "website": "Twitch",
+          "link": "https://www.twitch.tv/bluebobross"
+        }
+      ],
+      "gameJams": [
+        {
+          "jamName": "Previous Jam",
+          "submissionName": "Train Game",
+          "jamDate": "October 25, 2019",
+          "jamTheme": "Simplified Favorite Game",
+          "submissionDescription": "My game takes the train mechanics from Nintendo's The Legend of Zelda: Spirit Tracks and simplifies the movement and combat with a blend of infinite runner and bullet-hell.",
+          "ultimateRanking": "3",
+          "rankingInformation": [
+            {
+              "category": "Theme Match",
+              "metric": "5",
+              "performance": "4"
+            },
+            {
+              "category": "Replayability",
+              "metric": "5",
+              "performance": "3"
+            },
+            {
+              "category": "Art",
+              "metric": "5",
+              "performance": "4"
+            }
+          ]
+        },
+        {
+          "jamName": "1-Hour Jam",
+          "submissionName": "Foolish Monkey",
+          "jamDate": "September 19, 2019",
+          "jamTheme": "Bananas",
+          "submissionDescription": "In Foolish Monkey, players take control of a stumbling, bumbling monkey as he strives to collect at least half the bananas in his area before the time runs out.",
+          "ultimateRanking": "NONE",
+          "rankingInformation": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,1 +1,26 @@
-This file will be updated at a later time.
+--  -----██╗-█████╗-███╗---███╗----██████╗--█████╗-███████╗██╗--██╗███████╗████████╗
+--  -----██║██╔══██╗████╗-████║----██╔══██╗██╔══██╗██╔════╝██║-██╔╝██╔════╝╚══██╔══╝
+--  -----██║███████║██╔████╔██║----██████╔╝███████║███████╗█████╔╝-█████╗-----██║---
+--  ██---██║██╔══██║██║╚██╔╝██║----██╔══██╗██╔══██║╚════██║██╔═██╗-██╔══╝-----██║---
+--  ╚█████╔╝██║--██║██║-╚═╝-██║----██████╔╝██║--██║███████║██║--██╗███████╗---██║---
+--  -╚════╝-╚═╝--╚═╝╚═╝-----╚═╝----╚═════╝-╚═╝--╚═╝╚══════╝╚═╝--╚═╝╚══════╝---╚═╝---
+--  --------------------------------------------------------------------------------
+
+Purpose of Jam Basket:
+
+The purpose of this project is to better the game-developer community in a way to enable creative minds, better ones portfolio, and as a result, attract new developers into a fun and thrilling experience.
+
+
+How to Install:
+1. Running XAMPP with the unzipped folder open, put the Jam-Basket folder into the htdocs folder of XAMPP.
+
+How to Run:
+1. Go to your default browser and type in the address localhost/Jam-Basket/iit.
+
+NOTE: If you are on a Mac, you will want to enter localhost:8080/Jam-Basket/iit in order to access the site.
+
+Once you load the site, you are free to browse each page of our site!
+
+
+
+
